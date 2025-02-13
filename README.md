@@ -11,6 +11,7 @@ Divide and Conquer is an algorithm design paradigm that solves complex problems 
 2. Quick Sort – Selects a pivot, partitions elements, and sorts recursively.
 3. Binary Search – Recursively searches for an element in a sorted array.
 
+
 ## Recusion
 Recursion is a programming technique where a function calls itself to solve smaller instances of a problem until it reaches a stopping condition. It is commonly used in divide and conquer algorithms and tree-based problems.
 
