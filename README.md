@@ -7,9 +7,9 @@ Divide and Conquer is an algorithm design paradigm that solves complex problems 
 ![image](https://github.com/user-attachments/assets/dd536d78-0da4-465c-9fa8-3dce90cd86d5)
 
 ### Examples of Divide and Conquer Algorithms:
-Merge Sort – Sorts an array by dividing, sorting subarrays, and merging them.
-Quick Sort – Selects a pivot, partitions elements, and sorts recursively.
-Binary Search – Recursively searches for an element in a sorted array.
+1. Merge Sort – Sorts an array by dividing, sorting subarrays, and merging them.
+2. Quick Sort – Selects a pivot, partitions elements, and sorts recursively.
+3. Binary Search – Recursively searches for an element in a sorted array.
 
 ## Recusion
 Recursion is a programming technique where a function calls itself to solve smaller instances of a problem until it reaches a stopping condition. It is commonly used in divide and conquer algorithms and tree-based problems.
@@ -20,12 +20,15 @@ The base condition is the condition in a recursive function that stops further r
 ### Recursive Condition
 The recursive condition defines how the function will call itself, reducing the problem size with each step.
 
-def factorial(n):
-    if n == 0 or n == 1:  # Base condition
-        return 1
-    return n * factorial(n - 1)  # Recursive call
+✅ Example: 
 
-print(factorial(5))  # Output: 120
+      def factorial(n):
+           if n == 0 or n == 1:  # Base condition
+                   return 1
+           return n * factorial(n - 1)  # Recursive call
+
+      print(factorial(5))  # Output: 120
+      
 
 # Divide and Conquer - LeetCode Problems
 
